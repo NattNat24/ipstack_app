@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../models/ip_info.dart';
+import '../models/ip_info_adapter.dart';
 
 class IPDetailScreen extends StatelessWidget {
   final IPInfo info;
 
-  IPDetailScreen({required this.info});
+  const IPDetailScreen({super.key, required this.info});
 
   @override
   Widget build(BuildContext context) {
